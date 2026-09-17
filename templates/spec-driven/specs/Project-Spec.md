@@ -1,10 +1,5 @@
 # [PROJECT NAME] Specification
 
-> Template status: follow the root README's adoption procedure. Replace every
-> bracketed placeholder, using "Not applicable" with a reason where appropriate.
-> Rename this file and update all references, including the root README,
-> `AGENTS.md`, and `specs/README.md`. Remove this notice after adoption.
-
 ## 1. Purpose and mission
 
 - **Project goal or mission:** [PROJECT GOAL OR MISSION]
