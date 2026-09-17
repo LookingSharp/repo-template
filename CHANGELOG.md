@@ -9,6 +9,8 @@ and this project adheres to [Semantic Versioning 2.0.0](https://semver.org/spec/
 
 ### Added
 
+- One-instruction adoption procedure for new and existing repositories,
+  including safe merging, project customization, and completion checks.
 - Initial spec-driven repository governance and specification template.
 - Reusable issue lifecycle covering issue creation, specification links,
   verification, resolution, and closure.

@@ -5,12 +5,12 @@ material for the project that adopts this template.
 
 ## Adoption
 
-1. Replace every bracketed placeholder in `Project-Spec.md`.
-2. Rename it to the project's authoritative specification name.
-3. Update the authoritative-specification references in `AGENTS.md` and this
-   README.
-4. Do not begin product implementation until the project mission or goal and
-   initial behavioral contract are defined.
+Follow the canonical [adoption procedure](../README.md#adoption-procedure).
+`Project-Spec.md` is a scaffold, not an established product contract. Reuse an
+existing authoritative spec if one exists; otherwise customize and rename the
+scaffold. Replace this adoption section in the destination with the exact
+authoritative spec path. Define the mission and initial contract before product
+implementation begins.
 
 ## Lifecycle
 

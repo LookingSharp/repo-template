@@ -7,10 +7,15 @@ repository. Read this file before making changes.
 
 - This repository is implementation-language-neutral and intentionally has no
   product goal or mission of its own.
-- Before product work begins, replace every bracketed placeholder in
-  `specs/Project-Spec.md`, rename it to the project's authoritative
-  specification, and update references to that name in this file and
-  `specs/README.md`.
+- When adopting this template into another project, follow the adoption
+  procedure in the root `README.md`. That procedure is the canonical setup
+  instruction for both new and existing repositories.
+- Before product work begins, define the mission and initial contract in
+  `specs/Project-Spec.md` or the existing authoritative specification. Replace
+  every bracketed placeholder, allowing "Not applicable" with a reason. Update
+  all renamed references and state the exact authoritative spec path here.
+  Replace this template-adoption section with project-specific guidance in the
+  destination. Do not invent a mission or material product decisions.
 - The adopting project's authoritative behavioral specification is the source
   of truth. Implementations and tests must conform to it.
 - Do not add speculative directory structure, frameworks, packaging,
