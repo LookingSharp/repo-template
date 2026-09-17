@@ -33,3 +33,7 @@ and this project adheres to [Semantic Versioning 2.0.0](https://semver.org/spec/
   including named personas and Dave's human decision-making role.
 - Adoption instructions now require replacing every bracketed specification
   placeholder, not only placeholders beginning with `PROJECT`.
+- New-project verification now distinguishes populated project content from
+  source files that must remain unchanged.
+- Existing-project adoption now explicitly omits the template specification
+  when preserving an authoritative specification at another path.

@@ -22,7 +22,9 @@ under `templates/`; do not combine variants implicitly.
 
 Copy the **contents** of `templates/spec-driven/` into the destination root,
 including `.github/` and `.gitkeep`. Do not copy the enclosing variant directory
-or this repository's root maintenance files. No files need renaming or removal.
+or this repository's root maintenance files. A new project without conflicting
+content needs no source files renamed or removed. Existing-project exceptions
+are described in the adoption procedure below.
 
 The variant contains `README.md`, `AGENTS.md`, `TEAM.md`, `CHANGELOG.md`,
 `.github/copilot-instructions.md`, `specs/README.md`, `specs/Project-Spec.md`,
@@ -53,8 +55,10 @@ installing a variant's contents.
    documentation and observable behavior, distinguishing intended behavior from
    known defects. Reuse an existing authoritative specification without creating
    a competing contract. If its path differs from `specs/Project-Spec.md`,
-   preserve that path and update the installed references consistently; this is
-   an exception to unchanged copying. Preserve existing acceptance identifiers.
+   preserve that path, do not install the template's `specs/Project-Spec.md`,
+   and update the installed references consistently. If the template
+   specification was copied while staging the adoption, remove only that
+   unpopulated copy. Preserve existing acceptance identifiers.
    Ask about an unknown mission or material product decision rather than inventing
    requirements. If blocked, retain useful scaffolding and report the unresolved
    decision without declaring setup complete.
@@ -70,9 +74,11 @@ installing a variant's contents.
    root changelog entries or assign a release during setup.
 6. **Verify and report.** Confirm one authoritative spec, valid local links,
    no unresolved placeholders in populated content, and no template-only files
-   in the installed set. For new projects, confirm permanent files match the
-   source except for an explicitly required owner change; for existing projects,
-   account for intentional merges and spec-path changes. Link existing behavioral
+   in the installed set. For new projects, confirm files not designated for
+   project-specific population match the source except for an explicitly required
+   owner change, and account for the required README and specification
+   customization. For existing projects, account for intentional merges, omitted
+   conflicting template files, and spec-path changes. Link existing behavioral
    tests to acceptance scenarios where practical and report coverage gaps without
    claiming unverified conformance. Run existing applicable checks without adding
    tooling solely for setup. Report changes and outstanding decisions using the
