@@ -1,7 +1,7 @@
 # Copilot instructions
 
 Read and follow [`AGENTS.md`](../AGENTS.md) before making changes. The
-adopting project's authoritative specification defines accepted behavior.
+project's authoritative specification defines accepted behavior.
 Follow the speclet workflow in `AGENTS.md` for proposed behavioral changes.
 
 Run the applicable project checks and include the mandatory completion report

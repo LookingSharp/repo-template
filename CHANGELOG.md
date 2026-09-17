@@ -9,6 +9,10 @@ and this project adheres to [Semantic Versioning 2.0.0](https://semver.org/spec/
 
 ### Added
 
+- Self-contained `templates/spec-driven/` variant with a project README and
+  clean initial changelog, separate from root maintenance files.
+- Root maintenance instructions and default variant selection for one-line
+  adoption, with descriptive slugs reserved for future variants.
 - One-instruction adoption procedure for new and existing repositories,
   including safe merging, project customization, and completion checks.
 - Initial spec-driven repository governance and specification template.
@@ -17,5 +21,15 @@ and this project adheres to [Semantic Versioning 2.0.0](https://semver.org/spec/
 
 ### Fixed
 
+- Restored required all-perspective specification and requested team reviews,
+  with advisory review for routine changes.
+- Restored explicit rules against duplicate specification archives and
+  independent specification versioning.
+- Separated temporary adoption instructions from permanent authority rules so
+  setup preserves the project's core governance.
+- Standardized new projects on `specs/Project-Spec.md` to avoid spec renaming
+  and governance reference rewrites during adoption.
+- Restored the full reference team definition from compare-directorytree,
+  including named personas and Dave's human decision-making role.
 - Adoption instructions now require replacing every bracketed specification
   placeholder, not only placeholders beginning with `PROJECT`.
